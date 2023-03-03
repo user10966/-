@@ -6,6 +6,7 @@
 int main(int argc, char** argv) {
 	srand(23415);
 	int x=rand(); 
-	printf("%d",x);
+	printf("%d",&x);
+	printf("%d",&x);
 	return 0;
 }
